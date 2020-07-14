@@ -1,11 +1,14 @@
 sudo: false
 
 languag: node_js
+node_js:
+  - 7
 
 install:
 #   - npm install -g codecov --save-dev
   - npm install coveralls --save-dev
   - npm install mocha-lcov-reporter --save-dev
+  - npm install --save bufferutil@3 ws@1
   - npm install jest --save-dev
 script:
   - jest --coverage && coveralls < coverage/lcov.info
