@@ -1,6 +1,6 @@
 languag: node_js
 node_js:
-  - 7
+  - 10
 install:
   - npm install -g codecov --save-dev
   - npm install --save bufferutil@3 ws@1
