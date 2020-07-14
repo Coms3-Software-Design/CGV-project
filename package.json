@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/Coms3-Software-Design/Software-Design-Project#readme",
   "dependencies": {
-    "codecov": "^3.7.0",
+    "codecov": "^3.7.0"
+  },
+  "devDependencies": {
     "jest": "^26.1.0"
   }
 }
