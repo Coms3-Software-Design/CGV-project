@@ -5,7 +5,7 @@ languag: node_js
 install:
   - npm install -g codecov --save-dev
 script:
-  - jest
+  - jest --passWithNoTests
   - codecov
   
 after_success:
