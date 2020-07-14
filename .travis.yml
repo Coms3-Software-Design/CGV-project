@@ -1,9 +1,12 @@
 sudo: false
 
 languag: node_js
-
+node_js:
+  - 7
 install:
   - npm install -g codecov --save-dev
+  - npm install --save bufferutil@3 ws@1
+  - npm install jest
 script:
   - jest --passWithNoTests
   - codecov
