@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/Coms3-Software-Design/Software-Design-Project/issues"
   },
-  "homepage": "https://github.com/Coms3-Software-Design/Software-Design-Project#readme"
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
+  },
+  "homepage": "https://github.com/Coms3-Software-Design/Software-Design-Project#readme",
+  "dependencies": {
+    "codecov": "^3.7.0",
+    "jest": "^26.1.0"
+  }
 }
