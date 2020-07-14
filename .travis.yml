@@ -9,5 +9,5 @@ script:
   - jest
   - codecov
   
-  after_success:
+after_success:
 - bash <(curl -s https://codecov.io/bash)
