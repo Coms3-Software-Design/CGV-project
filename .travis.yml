@@ -4,7 +4,7 @@ languag: node_js
 
 install:
   - npm install -g codecov --save-dev
-  - npm install -g jest --save-dev
+  - npm install jest --save-dev
 script:
   - jest
   - codecov
