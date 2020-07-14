@@ -4,7 +4,7 @@
   "description": "> Building a website for the market app",
   "main": "Scripts/script.js",
   "scripts": {
-    "test": "jest && codecov"
+    "test": "jest --coverage && coveralls < coverage/lcov.info"
   },
   "repository": {
     "type": "git",
