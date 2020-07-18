@@ -1,0 +1,31 @@
+body{
+  background: #A2A6A2;
+  margin: 0;
+  padding: 0;
+
+}
+h1{
+  text-align: center;
+  padding: 20px;
+}
+
+.Register{
+  background: #2d85b0;
+  width: 500px;
+  margin-left: 430px;
+  color: white;
+  font-size: 18;
+  padding: 20px;
+  border-radius: 20px;
+
+}
+#Register{
+  margin-left: 50px;
+}
+
+label{
+color: white;
+font-family: sans-serif;
+font-size: 18px;
+font-style: italic;
+}
