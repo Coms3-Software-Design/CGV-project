@@ -105,9 +105,9 @@ header .nav-links a:hover {
 	text-decoration: none ;
 	margin : 27px ;
 	padding: 10px 30px ;
-	background-color: #fff;
-	color : #00508C;
-	border: 2px solid #00508C ;
+	background-color: transparent;
+	color : #ffffff;
+	border: 2px solid #ffffff ;
 	border-radius: 30px ;
 	display: inline-block;
 	transition: 1s ease ;
@@ -128,10 +128,12 @@ header .nav-links a:hover {
 }
 
 .login-btn:hover {
-	background-color: transparent;
-	color : #ffffff;
-	border: 2px solid #ffffff ;
+	background-color: #fff;
+	color : #00508C;
+	border: 2px solid #00508C ;
 }
+
+
 
 .signup-btn:hover {
 	background-color: #fff;
