@@ -1,5 +1,4 @@
 languag: node_js
-sudo: required
 node_js:
   - 10
 install:
