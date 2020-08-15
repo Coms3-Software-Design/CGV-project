@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@700&display=swap');
+
+body {
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: #fff ;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.container {
+	max-width: 100% ;
+	margin: 0 ;
+}
+
+header .container {
+	position: absolute;
+}
+
+header .row {
+	position: absolute;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header {
+	position: absolute;
+	left: 0px ;
+	right: 50px ;
+	z-index: 10;
+}
+
+header .logo {
+	color : #fff ;
+	font-weight: 600 ;
+	margin-left: 43px ;
+	font-size: 21px ;
+}
+
+header ul {
+	list-style: none ;
+	margin: 0;
+}
+
+header ul li {
+	display: inline-block;
+	margin: 15px;
+	padding-left: 35px ;
+	line-height: 7.2 ;
+}
+
+header .nav-links a {
+	text-decoration: none ;
+	font-size: 16px ;
+	font-weight: 600 ;
+	color : #002B4B ;
+}
+
+.home svg{
+	position: absolute;
+} 
+
+.home {
+	position: relative;
+	border-bottom-right-radius:10px ;
+	border-bottom-left-radius: 10px ;
+	background-color: #002B4B ;
+	height: 670px ;
+}
+
+.home .info{
+	position: absolute;
+	top: 30% ;
+	left: 10% ;
+	margin-bottom: 10px ;
+	font-family: 'Hind Vadodara', sans-serif;
+}
+
+.home .info h1 {
+	font-size: 56px ;
+	font-weight: 600 ;
+	color : #ffffff ;
+}
+
+.home .info p {
+	font-weight: lighter;
+	font-size: 23px ;
+	color: #fff ;
+}
+
+.home .info h2 {
+	font-weight: 600 ;
+	font-size: 30px ;
+	color : #ffffff;
+}
+
+.login-btn {
+	position: relative;
+	text-decoration: none ;
+	margin : 27px ;
+	padding: 10px 30px ;
+	background-color: #fff;
+	color : #00508C;
+	border: 2px solid #00508C ;
+	border-radius: 30px ;
+	display: inline-block;
+	transition: 1s ease ;
+}
+
+.signup-btn {
+	
+	position: relative;
+	text-decoration: none ;
+	margin : 27px ;
+	padding: 10px 30px ;
+	background-color: transparent;
+	color : #ffffff;
+	border: 2px solid #ffffff ;
+	border-radius: 30px ;
+	display: inline-block;	
+	transition: 1s ease ;
+}
+
+.login-btn:hover {
+	background-color: transparent;
+	color : #ffffff;
+	border: 2px solid #ffffff ;
+}
+
+.signup-btn:hover {
+	background-color: #fff;
+	color : #00508C;
+	border: 2px solid #00508C ;		
+} 
+
+/*.popup {
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 100% ;
+	height: 100% ;
+}*/
+
