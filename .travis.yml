@@ -1,10 +1,9 @@
 languag: node_js
-sudo: required
 node_js:
   - 10
 install:
   - npm install -g codecov --save-dev
-  - npm install --save bufferutil@3 ws@1 --force
+  - npm install --save bufferutil@3 ws@1
   - npm install jest --save-dev
 script:
   - npm run test
