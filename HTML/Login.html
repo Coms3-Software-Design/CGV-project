@@ -1,88 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Market Place</title>
-	<link rel="stylesheet" type="text/css" href="C:/Users/Mahlatse%20Charlie/Videos/Software-Design-Project/CSS/Login1.css">
-	<link rel="stylesheet" type="text/css" href="C:/Users/Mahlatse%20Charlie/Videos/Software-Design-Project/CSS/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/style.css">
 </head>
 
 <body>
+    <header>
+        <h2>The Modal</h2>
+        <p>Press the button down here</p>
+    </header>
 
-	<!-- START HEADER -->
+    <div class="subscribe-section">
+        <button class="modal-btn">Sign in</button>
+    </div>
+    
+    <div class="modal-bg">
+        
+        <div class="modal">
+            <h1 class="label">User login</h1>
+            <form class="login_form">
+                <div class="font">Email or Phone</div>
+                <input type="text">
+                <div class="font font2">Password</div>
+                <input type="password">
+                <button type="submit">Login</button>
+                <span class="modal-close">close</span>
+            </form>
+        </div>
+    </div>
 
-	<header class="header">
-		<div class="container">
-			<div class="row">
-				<div class="logo">
-					Market Place
-					</div>
-				<div class="nav-links">
-					<ul>
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Services</a></li>
-						<li><a href="#">Goods</a></li>
-						<li><a href="#">About Us</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</header>
+    <script src="../Scripts/app.js">
+        
+    </script>
 
-<!-- END HEADER -->
-
-
-<!-- START HOME -->
-<section class="home">
-	<div class="svg">
-		<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
-  			<path fill="#ffffff" d="M37.6,-17.5C45.8,-7.6,47.3,10.3,39.9,20C32.6,29.8,16.3,31.4,-1.6,32.3C-19.5,33.3,-39,33.5,-49.9,21.7C-60.9,9.8,-63.4,-14.1,-53.6,-24.9C-43.9,-35.7,-21.9,-33.4,-3.6,-31.3C14.7,-29.2,29.5,-27.4,37.6,-17.5Z" transform="translate(170 0)"/>
-			</svg>
-			</div>
-	<div class="row">
-		<div class="home-content">
-			<div class="info">
-				<h1>Taking Advanced,<br/>
-				Back to Basics</h1>
-
-				<p> What do you do if you need to buy an item from someone who stays far from where you staying?<br/>
-					Advanced problem, right?<br/>
-					Market Place is taking it back to the basics. You can buy and sell from and to anyone in the world.<br/> </p>
-
-			<h2><em class="span">World at your fingertips.</em></h2>
-			<a href="#" class="login-btn" id="login-btn0" >Login</a>
-			<a href="#" class="signup-btn">Sign Up</a>
-			</div>
-		</div>
-	</div>
-</div>
-</section>
-<div class="row">
-<div class="popup">
-	<div class="popup-content">
-
-		<i class="fas fa-user"></i>
-		<a href="#" class="close-btn" id="close-btn"><i class="far fa-times-circle"></i></a>
-		
-		<input type="text" name="Username" placeholder="Username">
-		
-		<input type="password" name="Password" placeholder="Password">
-
-		<a href="#" class="login-btn2">Login</a>
-	
-	</div>
-</div>
-</div>
-<!-- END HOME -->
-
-<script type="text/javascript">
-	
-	document.getElementById('login-btn0').addEventListener("click", function(){
-		document.querySelector(".popup").style.display = "flex" ;
-	}) ;
-
-	document.getElementById('close-btn').addEventListener("click", function(){
-		document.querySelector('.popup').style.display = "none" ;
-	})
-</script>
 </body>
 </html>
